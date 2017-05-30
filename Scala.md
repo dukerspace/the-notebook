@@ -4,6 +4,12 @@
 - in sbt-updates.sbt type "addSbtPlugin("com.timushev.sbt" % "sbt-updates" % "0.3.0")"
 - use update cmd "dependencyUpdates"
 
+### SBT
+libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "2.0.0" % Test
+libraryDependencies += "com.rabbitmq" % "amqp-client" % "4.1.0"
+%% library ของ scala
+% library ของ java
+
 ### Learning
 - https://www.scala-exercises.org/
 - https://www.cs.helsinki.fi/u/wikla/OTS/Sisalto/examples/
