@@ -13,3 +13,8 @@ libraryDependencies += "com.rabbitmq" % "amqp-client" % "4.1.0"
 ### Learning
 - https://www.scala-exercises.org/
 - https://www.cs.helsinki.fi/u/wikla/OTS/Sisalto/examples/
+
+### SBT Stage
+- sbt "project projectName" start, sbt "project webapp" start
+- sbt > stage
+- run ผ่าน git bash ./bin/webapp
