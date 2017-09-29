@@ -1,3 +1,10 @@
+### Try https://try.github.io/
+### เริ่มต้น
+- git init
+- git remote add origin http://github.com/??
+- git add --all
+- git commit -m "Init"
+
 ### Sub Module
 - git config --global alias.pullall '!f(){ git pull "$@" && git submodule update --init --recursive; }; f'
 
