@@ -4,6 +4,7 @@
 - git remote add origin http://github.com/??
 - git add --all
 - git commit -m "Init"
+- git push origin
 
 ### Sub Module
 - git config --global alias.pullall '!f(){ git pull "$@" && git submodule update --init --recursive; }; f'
