@@ -1,3 +1,6 @@
+### Common
+- ถ้ารันบน sbt จะแบ่งแรมกับ jvm เช่น 512MB / 2
+
 ### SBT Check Dependencies
 - .sbt create folder name "plugins"
 - create file "sbt-updates.sbt"

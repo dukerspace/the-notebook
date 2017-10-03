@@ -17,3 +17,6 @@ docker volume ls
 docker volume rm <name>
 - ex: docker volume rm docker_rabbitmq-data
 - ex remove all volume: docker volume rm `docker volume ls -q -f dangling=true`
+
+removing only unused volumes:
+- docker volume prune
