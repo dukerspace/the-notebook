@@ -1,9 +1,9 @@
-## The note book
+## The Notebook
 ![The note book](/files/the_notebook.jpg)
-[IMDB](http://www.imdb.com/title/tt0332280/)
+- [IMDB](http://www.imdb.com/title/tt0332280/)
 
 #### Lang
-- [GO Lang](/Go.md)
+- [go Lang](/Go.md)
 - [Scala](/Scala.md)
 
 #### Framework

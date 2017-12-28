@@ -14,8 +14,11 @@
 - เริ่มต้นด้วยการ ไปที่ branch หลัก (master)
 - จากนั้นก็สั่ง git merge branch_name จาก branch ที่ต้องการ มาที่ master
 
-### Checkout
+#### Checkout
 - by tag : git checkout tags/<tag_name>
+
+#### Update remote url
+- git remote set-url origin https://github.com/USERNAME/REPOSITORY.git (https://help.github.com/articles/changing-a-remote-s-url/)
 
 ## Gitlab
 #### git diff 
