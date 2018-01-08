@@ -14,6 +14,9 @@
 - เริ่มต้นด้วยการ ไปที่ branch หลัก (master)
 - จากนั้นก็สั่ง git merge branch_name จาก branch ที่ต้องการ มาที่ master
 
+#### Rebase
+- 
+
 #### Checkout
 - by tag : git checkout tags/<tag_name>
 
@@ -23,3 +26,9 @@
 ## Gitlab
 #### git diff 
 ![diff](/files/gitlabdiff.jpg "gitlab diff")
+
+#### Learn more
+- (http://www.siamhtml.com/git-workflow-in-a-team/)
+- (https://devahoy.com/posts/git-cheat-sheet/)
+- (http://anuchit-git.blogspot.com/2013/07/git.html)
+- Workflow (http://www.siamhtml.com/git-workflow-in-a-team/)
