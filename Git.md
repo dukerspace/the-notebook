@@ -27,6 +27,12 @@
 #### Update remote url
 - git remote set-url origin https://github.com/USERNAME/REPOSITORY.git (https://help.github.com/articles/changing-a-remote-s-url/)
 
+#### Delete local branch
+- git branch -D branch_name
+
+#### Delete  remote branch
+- git push <remote_name> --delete <branch_name>
+
 ## Gitlab
 #### git diff 
 ![diff](/files/gitlabdiff.jpg "gitlab diff")
