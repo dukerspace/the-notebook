@@ -3,7 +3,7 @@
 - [IMDB](http://www.imdb.com/title/tt0332280/)
 
 #### Lang
-- [go Lang](/Go.md)
+- [Go Lang](/Go.md)
 - [Scala](/Scala.md)
 
 #### Framework
