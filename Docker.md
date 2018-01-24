@@ -20,3 +20,6 @@ docker volume rm <name>
 
 removing only unused volumes:
 - docker volume prune
+
+#### image
+- docker image prune : remove none used
