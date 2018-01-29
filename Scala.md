@@ -24,3 +24,7 @@ libraryDependencies += "com.rabbitmq" % "amqp-client" % "4.1.0"
 - sbt "project projectName" start, sbt "project webapp" start
 - sbt > stage
 - run ผ่าน git bash ./bin/webapp
+
+#### Akka
+- [AKKA สุดยอด Reactive Toolkit](www.howtoautomate.in.th/akka-best-reactive-toolkit)
+- [Reactive Programing](http://www.somkiat.cc/reactive-programming/)

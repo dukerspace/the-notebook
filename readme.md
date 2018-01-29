@@ -3,8 +3,9 @@
 - [IMDB](http://www.imdb.com/title/tt0332280/)
 
 #### Lang
-- [go Lang](/Go.md)
+- [Go Lang](/Go.md)
 - [Scala](/Scala.md)
+- [Java](/Java.md)
 
 #### Framework
 - [Play](/Play.md)
@@ -13,3 +14,8 @@
 - [Docker](/Docker.md)
 - [Git](/Git.md)
 - [IntelliJ](/IntelliJ.md)
+
+
+### Etc
+- [Blockchain](/Blockchain.md)
+- [Learning](/Learning.md)
