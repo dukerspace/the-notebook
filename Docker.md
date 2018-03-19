@@ -1,4 +1,6 @@
 
+### Docker
+
 #### use command
 docker exec -it <container_name> <command>
 - ex: docker exec -it docker_test bash
@@ -23,3 +25,11 @@ removing only unused volumes:
 
 #### image
 - docker image prune : remove none used
+
+### Compose
+
+#### run
+- docker-compose run -d --build
+
+#### build
+- docker-compose build
