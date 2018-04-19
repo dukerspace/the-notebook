@@ -13,6 +13,9 @@
 #### Pull
 - git pull origin master
 
+#### Fetch
+- git fetch origin
+
 #### Merge
 - เริ่มต้นด้วยการ ไปที่ branch หลัก (master)
 - จากนั้นก็สั่ง git merge branch_name จาก branch ที่ต้องการ มาที่ master
@@ -29,12 +32,17 @@
 
 #### Delete local branch
 - git branch -D branch_name
+- git branch | grep 'bug-\.' | xargs git branch -d (ลบชื่อเหมือน)
 
-#### Delete  remote branch
+#### Delete remote branch
 - git push <remote_name> --delete <branch_name>
 
+#### Delete local does note exist remote
+- git remote prune origin  
+- git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -d  
+
 ## Gitlab
-#### git diff 
+#### git diff
 ![diff](/files/gitlabdiff.jpg "gitlab diff")
 
 #### Learn more
