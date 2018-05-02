@@ -14,3 +14,35 @@
  //a channel that can only send data - arrow going out is sending
 - ic_recv_only := make (chan<- int)
 //a channel that can only receive a data - arrow going in is receiving
+
+#### Pointer
+
+```
+package main
+
+import "fmt"
+
+type human struct {
+	name    string
+	age     int
+	isAdult bool
+}
+
+// ใช้ * แทนการ dereference หรือการถอดเอาค่าที่แท้จริงออกมา
+func setAdult(h *human) {
+	h.isAdult = h.age >= 18
+}
+
+func main() {
+	somchai := human{name: "Somchai", age: 23}
+    // ใช้ & แทนการอ้างถึง reference
+	setAdult(&somchai)
+	fmt.Println(somchai) // {Somchai 23 true}
+}
+```
+
+[reference](https://www.babelcoder.com/blog/posts/intro-to-golang)
+
+#### Private and Public Visibility
+- private Lowwer case -> func a()
+- public Upper case  => func A()
