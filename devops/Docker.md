@@ -26,7 +26,8 @@ removing only unused volumes:
 #### image
 - docker image prune : remove none used
 
-### Compose
+
+### Docker Compose
 
 #### run
 - docker-compose run -d --build
