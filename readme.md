@@ -10,12 +10,23 @@
 #### Framework
 - [Play](/framework/Play.md)
 
+#### Dev Ops
+- [Docker](/devops/Docker.md)
+- [Kubernetes](/devops/Kubernetest.md)
+- [Git](/devops/Git.md)
+
 #### Tools
-- [Docker](/tools/Docker.md)
-- [Git](/tools/Git.md)
 - [IntelliJ](/tools/IntelliJ.md)
+- [Vim](/tools/Vim.md)
 
+### Design Pattern
+- [Abstract facetory](/design-pattern/abstract-factory.md)
+- [Design Pattern](/design-pattern/design-pattern.md)
+- [Singleton](/design-pattern/singleton.md)
 
-### Etc
+### API
+- [Rest](/api/rest.md)
+
+#### Etc
 - [Blockchain](/Blockchain.md)
 - [Learning](/Learning.md)

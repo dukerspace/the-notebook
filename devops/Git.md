@@ -1,5 +1,6 @@
 ## Git
-#### Try https://try.github.io/
+[Try](https://try.github.io/)
+
 #### เริ่มต้น
 - git init
 - git remote add origin http://github.com/??
