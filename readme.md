@@ -14,6 +14,7 @@
 - [Docker](/devops/Docker.md)
 - [Kubernetes](/devops/Kubernetest.md)
 - [Git](/devops/Git.md)
+- [SVN](/devops/Kubernetes.md)
 
 #### Tools
 - [IntelliJ](/tools/IntelliJ.md)
@@ -30,3 +31,4 @@
 #### Etc
 - [Blockchain](/Blockchain.md)
 - [Learning](/Learning.md)
+- [Ubuntu](Ubuntu.md)
