@@ -26,7 +26,7 @@
 - git rebase master
 
 #### Checkout
-- by tag : git checkout tags/<tag_name>
+- by tag : git checkout tags/<tag-name>
 
 #### Update remote url
 - git remote set-url origin https://github.com/USERNAME/REPOSITORY.git (https://help.github.com/articles/changing-a-remote-s-url/)
@@ -36,7 +36,7 @@
 - git branch | grep 'bug-\.' | xargs git branch -d (ลบชื่อเหมือน)
 
 #### Delete remote branch
-- git push <remote_name> --delete <branch_name>
+- git push <remote-name> --delete <branch-name>
 
 #### Delete local does note exist remote
 - git remote prune origin  
