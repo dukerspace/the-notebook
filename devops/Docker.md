@@ -26,8 +26,10 @@ removing only unused volumes:
 - docker volume prune
 
 #### image
-- docker image prune : remove none used
+- docker image prune => remove none used
 
+#### container
+- docker container prune => remove none used container
 
 ### Docker Compose
 
@@ -36,3 +38,6 @@ removing only unused volumes:
 
 #### build
 - docker-compose build
+
+#### .env
+- ใน environment ใช้ $$ => ex: VAR=$${VARS}
