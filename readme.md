@@ -10,10 +10,15 @@
 #### Framework
 - [Play](/framework/Play.md)
 
+#### Databases
+- [MySql](/databases/Mysql.md)
+- [Postgres](/databases/Postgres.md)
+
 #### Dev Ops
 - [Docker](/devops/Docker.md)
 - [Kubernetes](/devops/Kubernetest.md)
 - [Git](/devops/Git.md)
+- [SVN](/devops/Kubernetes.md)
 
 #### Tools
 - [IntelliJ](/tools/IntelliJ.md)
@@ -30,3 +35,4 @@
 #### Etc
 - [Blockchain](/Blockchain.md)
 - [Learning](/Learning.md)
+- [Ubuntu](Ubuntu.md)
