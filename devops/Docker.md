@@ -41,3 +41,6 @@ removing only unused volumes:
 
 #### .env
 - ใน environment ใช้ $$ => ex: VAR=$${VARS}
+
+#### link
+- [training](https://training.play-with-docker.com)
