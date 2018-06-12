@@ -6,6 +6,7 @@
 - [Go Lang](/lang/Go.md)
 - [Scala](/lang/Scala.md)
 - [Java](/lang/Java.md)
+- [Shell](/lang/shell.md)
 
 #### Framework
 - [Play](/framework/Play.md)
