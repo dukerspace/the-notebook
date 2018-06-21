@@ -42,6 +42,9 @@
 - git remote prune origin  
 - git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -d  
 
+#### Remeber login
+- git config credential.helper store
+
 ## Gitlab
 #### git diff
 ![diff](/files/gitlabdiff.jpg "gitlab diff")
