@@ -4,10 +4,9 @@
 - Master Node : ทำหน้าที่ให้บริการ Kubernetes API (เป็น REST)
 - Worker Node : ทำหน้าที่ run container
 - Pod : กลุ่ม container
-- Services :
-- Lebels :
-- Deploying :
-- Namespace :
+- Deployment : Replica Set + Pod
+- Replica set : มีหน้าที่ทำให้ pod มีจำนวนเท่ากับที่กำหนดไว้
+
 
 
 ### kubectl
