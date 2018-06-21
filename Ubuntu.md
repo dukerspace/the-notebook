@@ -6,3 +6,6 @@
 
 #### switch to gui mode
 - Ctrl + Alt + F7
+
+#### stop process by port
+
