@@ -39,4 +39,6 @@
 #### Etc
 - [Blockchain](/Blockchain.md)
 - [Learning](/Learning.md)
-- [Ubuntu](Ubuntu.md)
+- [Ubuntu](/Ubuntu.md)
+- [Servives](/Services.md)
+- [Testing](/Testing.md)
