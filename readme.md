@@ -3,12 +3,16 @@
 - [IMDB](http://www.imdb.com/title/tt0332280/)
 
 #### Lang
+- [Arduino](/lang/Arudion.md)
 - [Go Lang](/lang/Go.md)
 - [Scala](/lang/Scala.md)
 - [Java](/lang/Java.md)
+- [Javacript](/lang/Javascript.md)
+- [Shell](/lang/shell.md)
 
 #### Framework
 - [Play](/framework/Play.md)
+- [ReactJs](/framework/ReactJs.md)
 
 #### Databases
 - [MySql](/databases/Mysql.md)
@@ -35,4 +39,6 @@
 #### Etc
 - [Blockchain](/Blockchain.md)
 - [Learning](/Learning.md)
-- [Ubuntu](Ubuntu.md)
+- [Ubuntu](/Ubuntu.md)
+- [Servives](/Services.md)
+- [Testing](/Testing.md)

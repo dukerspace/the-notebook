@@ -26,13 +26,26 @@ removing only unused volumes:
 - docker volume prune
 
 #### image
-- docker image prune : remove none used
+- docker image prune => remove none used
 
+#### container
+- docker container prune => remove none used container
 
 ### Docker Compose
+
+#### docker-compose.yml
+##### version 3
+- links:  ผูก service เข้าด้วยกัน รูปแบบ Sevice name:Alias name
+- depens_on: start service หลังจาก service ที่อยู่ depend on เริ่มต้นการทำงานเสร็จแล้ว
 
 #### run
 - docker-compose run -d --build
 
 #### build
 - docker-compose build
+
+#### .env
+- ใน environment ใช้ $$ => ex: VAR=$${VARS}
+
+#### link
+- [training](https://training.play-with-docker.com)
