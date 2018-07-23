@@ -42,6 +42,13 @@
 - git remote prune origin  
 - git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -d  
 
+#### Stash
+- git stash
+- git stash pop
+- git stash list ดูลิสทั้งหมด
+- git stash clear -> clear all
+- git stash drop stash@{0} -> drop by list
+
 #### Remeber login
 - git config credential.helper store
 
