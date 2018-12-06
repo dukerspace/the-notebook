@@ -29,4 +29,8 @@
 - Template Method
 - Visitor
 
-credit [algorithmtut](https://www.algorithmtut.com/algorithmdesign-pattern-tutorials/)
+#### links
+- [Designer pattern](https://designpatternsphp.readthedocs.io)
+
+credit 
+- [algorithmtut](https://www.algorithmtut.com/algorithmdesign-pattern-tutorials/)
