@@ -3,19 +3,15 @@
 
 #### เริ่มต้น
 - git init
-- git remote add origin http://github.com/??
+- git remote add <name> <url>
+```
+git remote add  orgin https://github.com/laravel/laravel
+```
 - git add --all
 - git commit -m "Init"
 - git push origin
-
-#### Sub Module
-- git config --global alias.pullall '!f(){ git pull "$@" && git submodule update --init --recursive; }; f'
-
-#### Pull
-- git pull origin master
-
-#### Fetch
 - git fetch origin
+- git pull origin master
 
 #### Merge
 - เริ่มต้นด้วยการ ไปที่ branch หลัก (master)
@@ -51,6 +47,40 @@
 
 #### Remeber login
 - git config credential.helper store
+
+#### Sub Module
+- git submodule add <url> <dir>
+```
+git submodule add https://github.com/laravel/laravel app/laravel
+```
+- git submodule init
+- git submodule update
+-  
+##### Delete Sub module
+1. ลบข้อมูล .gitmodules
+2. ลบข้อมูลใน sumoudle entry ใน .git/config
+3. git rm --cached <folder>
+```
+git rm -cached app/laravel
+```
+
+##### Easy way
+- git sumodule update --init
+```
+git config --global alias.update '!git pull && git submodule update --init --recursive'
+```
+
+```
+git config --global alias.pullall '!f(){ git pull "$@" && git submodule update --init --recursive; }; f'
+```
+
+#### Worktree
+- จัดการกับโค้ดโครงการเดียว แต่มีก๊อบปี้หลายชุด
+- ไม่ควรใช้กับโครงการที่มี submodule โดยเด็ดขาด
+- git worktree add -b <new_branch> <directory> <old_branch>
+```
+git worktree add -b hotfix hotfix develop
+```
 
 ## Gitlab
 #### git diff
