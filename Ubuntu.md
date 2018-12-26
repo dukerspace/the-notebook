@@ -1,4 +1,5 @@
 ## Ubuntu
+- uptime : check time use on computer
 
 #### remove app
 - sudo apt-get purge <name>
@@ -7,5 +8,12 @@
 #### switch to gui mode
 - Ctrl + Alt + F7
 
-#### stop process by port
+#### check port used
+```
+sudo lsof -t -i:80
+```
 
+#### stop process by port
+```
+sudo kill `sudo lsof -t -i:80`
+```
