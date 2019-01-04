@@ -2,8 +2,17 @@
 
 #### Backup
 ##### pg_dump <db-name> <backup-file>
-- pg_dump postgres > postgres_db.bak
+- pg_dump -U username table > file.bak
+```
+pg_dum -U postgres project > backup_db.bak
+```
 
 #### Restore
-- psql -U <username> -d <dbname> -1 -f <filename>.sql
+- psql -U <username> <dbname> < <filename>.sql
+```
+psql -U postgres project < backup.bak
+```
 - pg_restore -U <username> -d <dbname> -1 <filename>.dump
+```
+pg_restore -U postgres -d project -1 backup.dump
+```
