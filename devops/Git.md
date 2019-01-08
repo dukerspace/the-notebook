@@ -25,7 +25,9 @@ git remote add  orgin https://github.com/laravel/laravel
 - by tag : git checkout tags/<tag_name>
 
 #### Update remote url
-- git remote set-url origin https://github.com/USERNAME/REPOSITORY.git (https://help.github.com/articles/changing-a-remote-s-url/)
+```
+git remote set-url origin https://github.com/USERNAME/REPOSITORY.git (https://help.github.com/articles/changing-a-remote-s-url/)
+```
 
 #### Delete local branch
 - git branch -D branch_name
@@ -33,9 +35,14 @@ git remote add  orgin https://github.com/laravel/laravel
 
 #### Delete remote branch
 - git push <remote_name> --delete <branch_name>
+```
+git push origin --delete develop
+```
 
 #### Delete local does note exist remote
-- git remote prune origin  
+```
+git remote prune origin  
+```
 - git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -d  
 
 #### Stash
@@ -46,7 +53,9 @@ git remote add  orgin https://github.com/laravel/laravel
 - git stash drop stash@{0} -> drop by list
 
 #### Remeber login
-- git config credential.helper store
+```
+git config credential.helper store
+```
 
 #### Sub Module
 - git submodule add <url> <dir>
@@ -82,12 +91,14 @@ git config --global alias.pullall '!f(){ git pull "$@" && git submodule update -
 git worktree add -b hotfix hotfix develop
 ```
 
+#### Git Workflow
+- [link 1](https://medium.com/i-gear-geek/%E0%B8%A1%E0%B8%B2%E0%B8%97%E0%B8%B3%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%81%E0%B8%B1%E0%B8%9A-git-workflows-%E0%B8%81%E0%B8%B1%E0%B8%99-e12609e9a8d2?fbclid=IwAR2klDGR6nZ1kvo44ArVWpPImxLMCamEHjcNwhEA_hv2JlQJQQnpUuzZHn0)
+- [link 2](http://www.siamhtml.com/git-workflow-in-a-team/)
+
 ## Gitlab
 #### git diff
 ![diff](/files/gitlabdiff.jpg "gitlab diff")
 
 #### Learn more
-- (http://www.siamhtml.com/git-workflow-in-a-team/)
 - (https://devahoy.com/posts/git-cheat-sheet/)
 - (http://anuchit-git.blogspot.com/2013/07/git.html)
-- Workflow (http://www.siamhtml.com/git-workflow-in-a-team/)
