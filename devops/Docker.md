@@ -44,6 +44,9 @@ removing only unused volumes:
 #### build
 - docker-compose build
 
+#### exec
+- docker-compose exec <name> bash
+
 #### .env
 - ใน environment ใช้ $$ => ex: VAR=$${VARS}
 
