@@ -41,9 +41,9 @@ git push origin --delete develop
 
 #### Delete local does note exist remote
 ```
-git remote prune origin  
+git remote prune origin
 ```
-- git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -d  
+- git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -d
 
 #### Stash
 - git stash
@@ -64,7 +64,7 @@ git submodule add https://github.com/laravel/laravel app/laravel
 ```
 - git submodule init
 - git submodule update
--  
+-
 ##### Delete Sub module
 1. ลบข้อมูล .gitmodules
 2. ลบข้อมูลใน sumoudle entry ใน .git/config
@@ -91,9 +91,7 @@ git config --global alias.pullall '!f(){ git pull "$@" && git submodule update -
 git worktree add -b hotfix hotfix develop
 ```
 
-#### Git Workflow
-- [link 1](https://medium.com/i-gear-geek/%E0%B8%A1%E0%B8%B2%E0%B8%97%E0%B8%B3%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%81%E0%B8%B1%E0%B8%9A-git-workflows-%E0%B8%81%E0%B8%B1%E0%B8%99-e12609e9a8d2?fbclid=IwAR2klDGR6nZ1kvo44ArVWpPImxLMCamEHjcNwhEA_hv2JlQJQQnpUuzZHn0)
-- [link 2](http://www.siamhtml.com/git-workflow-in-a-team/)
+#### [Git Workflow](../theory/git-workflow.md)
 
 ## Gitlab
 #### git diff
