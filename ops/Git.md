@@ -21,8 +21,22 @@ git remote add  orgin https://github.com/laravel/laravel
 - git checkout <branch>
 - git rebase master
 
-#### Checkout
-- by tag : git checkout tags/<tag_name>
+#### Tag checkout
+```
+git checkout tags/<tag_name>
+```
+#### Tag add
+```
+git tag <tagname>
+```
+### Tag list
+```
+git tag -l
+```
+#### Tag push
+```
+git push --tag
+```
 
 #### Update remote url
 ```

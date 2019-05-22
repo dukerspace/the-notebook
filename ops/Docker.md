@@ -6,7 +6,7 @@ docker exec -it <container_name> <command>
 - ex: docker exec -it docker_test bash
 
 #### copy
-docker cp 
+docker cp
 ##### ex host to container <file> <container_name>:/<to_path>
 - docker cp rabbitmqadmin docker_rabbitmq_1:/usr/local/bin
 ##### ex container to host <container_name>:/<path>/<file> <to_path>
@@ -23,13 +23,24 @@ docker volume rm <name>
 - ex remove all volume: docker volume rm `docker volume ls -q -f dangling=true`
 
 removing only unused volumes:
-- docker volume prune
+```
+docker volume prune
+```
 
 #### image
-- docker image prune => remove none used
+```
+docker image prune => remove none used
+```
 
 #### container
-- docker container prune => remove none used container
+```
+docker container prune => remove none used container
+```
+
+#### check disk
+```
+docker system df
+```
 
 ### Docker Compose
 
@@ -52,3 +63,5 @@ removing only unused volumes:
 
 #### link
 - [training](https://training.play-with-docker.com)
+
+--remove-orphans
