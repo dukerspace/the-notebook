@@ -19,6 +19,9 @@
 
 #### Pointer
 
+& ส่ง
+* รับ
+
 ```
 package main
 
