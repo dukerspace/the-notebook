@@ -3,7 +3,9 @@
 
 #### use command
 docker exec -it <container_name> <command>
-- ex: docker exec -it docker_test bash
+```
+docker exec -it docker_test bash
+```
 
 #### copy
 docker cp
@@ -14,15 +16,21 @@ docker cp
 
 #### remove file
 docker exec <container-name> rm -rf <file>
-- ex: docker exec docker_rabbitmq_1 rm -rf rmq-setup.sh
+```
+docker exec docker_rabbitmq_1 rm -rf rmq-setup.sh
+```
 
 #### remove volume data
 docker volume ls
 docker volume rm <name>
-- ex: docker volume rm docker_rabbitmq-data
-- ex remove all volume: docker volume rm `docker volume ls -q -f dangling=true`
-
-removing only unused volumes:
+```
+docker volume rm docker_rabbitmq-data
+```
+- ex remove all volume
+```
+docker volume rm `docker volume ls -q -f dangling=true`
+```
+- removing only unused volumes:
 ```
 docker volume prune
 ```
