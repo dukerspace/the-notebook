@@ -12,11 +12,14 @@
 ### kubectl
 #### create
 - kubectl create -f <file.yml>
-- ex: kubectl create -f hello.yml
+```
+kubectl create -f hello.yml
+```
 
 #### delete
 - kubectl delete -f <file.yml>
-- ex: kubectl delete -f hello.yml
+```kubectl delete -f hello.yml
+```
 
 #### get
 - kubectl get pods

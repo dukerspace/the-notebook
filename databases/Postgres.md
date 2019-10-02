@@ -4,7 +4,7 @@
 ##### pg_dump <db-name> <backup-file>
 - pg_dump -U username table > file.bak
 ```
-pg_dum -U postgres project > backup_db.bak
+pg_dump -U postgres project > backup_db.bak
 ```
 
 #### Restore
