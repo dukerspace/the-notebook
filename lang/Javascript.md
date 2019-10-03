@@ -8,7 +8,11 @@ console.log(b) # {name: 'a', age:18, tel: 123}
 ```
 
 #### Rest Operator
-- 
+-
+
+#### primitive type
+
+#### reference type
 
 #### Redux
 - action :
