@@ -71,6 +71,13 @@ git remote prune origin
 git config credential.helper store
 ```
 
+#### move same file name
+```
+git mv -f {old_file} {new_file}
+```
+
+#### multiple account
+
 #### Sub Module
 - git submodule add <url> <dir>
 ```
