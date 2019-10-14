@@ -111,6 +111,20 @@ git config --global alias.pullall '!f(){ git pull "$@" && git submodule update -
 ```
 git worktree add -b hotfix hotfix develop
 ```
+- git worktree add <directory> <branch>
+```
+git worktree add  ../new_branch develop
+```
+- clean
+```
+git worktree prune
+```
+
+#### Check repo size
+```
+git gc
+git count-objects -vH
+```
 
 #### [Git Workflow](../theory/git-workflow.md)
 
