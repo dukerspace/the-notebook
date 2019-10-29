@@ -66,6 +66,11 @@ git remote prune origin
 - git stash clear -> clear all
 - git stash drop stash@{0} -> drop by list
 
+#### Reset new file and folder
+```
+git clean -fd
+```
+
 #### Remeber login
 ```
 git config credential.helper store
