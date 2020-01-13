@@ -1,3 +1,10 @@
+---
+id: mysql
+title: Mysql
+type: docs
+path: the-notebook/database/mysql
+---
+
 ### MySql
 
 #### Backup

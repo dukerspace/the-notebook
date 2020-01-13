@@ -1,3 +1,10 @@
+---
+id: git
+title: Git
+type: docs
+path: the-notebook/ops/git
+---
+
 ## Git
 [Try](https://try.github.io/)
 
@@ -89,9 +96,15 @@ git mv -f {old_file} {new_file}
 ```
 git submodule add https://github.com/laravel/laravel app/laravel
 ```
-- git submodule update --init --recursive
-- git submodule update --recursive --remote
-  
+- Git Pull with Submodule
+```
+git submodule update --init --recursive
+```
+- Update submodules
+```
+git submodule update --recursive --remote
+```
+
 ##### Delete Sub module
 1. ลบข้อมูล .gitmodules
 2. ลบข้อมูลใน sumoudle entry ใน .git/config
