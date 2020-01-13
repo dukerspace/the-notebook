@@ -1,3 +1,10 @@
+---
+id: git
+title: Git
+type: docs
+path: the-notebook/ops/git
+---
+
 ## Git
 [Try](https://try.github.io/)
 
@@ -66,19 +73,38 @@ git remote prune origin
 - git stash clear -> clear all
 - git stash drop stash@{0} -> drop by list
 
+#### Reset new file and folder
+```
+git clean -fd
+```
+
 #### Remeber login
 ```
 git config credential.helper store
 ```
 
+#### move same file name
+```
+git mv -f {old_file} {new_file}
+```
+
+#### multiple account
+
 #### Sub Module
+- git submodule init
 - git submodule add <url> <dir>
 ```
 git submodule add https://github.com/laravel/laravel app/laravel
 ```
-- git submodule init
-- git submodule update
--
+- Git Pull with Submodule
+```
+git submodule update --init --recursive
+```
+- Update submodules
+```
+git submodule update --recursive --remote
+```
+
 ##### Delete Sub module
 1. ลบข้อมูล .gitmodules
 2. ลบข้อมูลใน sumoudle entry ใน .git/config

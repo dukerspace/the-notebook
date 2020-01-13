@@ -1,10 +1,10 @@
 ## Domain Driven Design
 
 ### Domain Layer
-- UI
-- Application
-- Domain
-- Infrastructure
+- Application (app, controller)
+- Domain (repository -> inteface)
+- Infrastructure (sequilize, model, repsitory)
+- Interface (router, http)
 
 
 ### Link

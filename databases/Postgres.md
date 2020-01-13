@@ -1,3 +1,10 @@
+---
+id: postgres
+title: PostgreSQL
+type: docs
+path: the-notebook/database/postgres
+---
+
 ### PostgreSQL
 
 #### Backup
