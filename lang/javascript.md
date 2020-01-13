@@ -23,3 +23,21 @@ console.log(b) # {name: 'a', age:18, tel: 123}
 
 #### Redux
 - action :
+
+#### ES2015
+- generator  (* ออกเสียงว่า ซุปเปอร์สตาร์)
+```
+function *helloGenerator() {
+}
+```
+
+### NPM
+
+#### publish package
+```
+npm publish --access public
+```
+
+
+### yarn
+- yarn --force (npm rebuild)
