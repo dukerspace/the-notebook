@@ -41,6 +41,15 @@ git tag -l
 ```
 git push --tag
 ```
+#### Tag delete
+- delete tag in host
+```
+git push --delete origin tagname
+```
+- delete tag in local
+```
+git tag --delete tagname
+```
 
 #### Update remote url
 ```
