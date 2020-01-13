@@ -1,7 +1,7 @@
 ---
-id: readme
-title: Read Me
-path: /the-notebook/readme
+id: index
+title: Index
+path: /the-notebook/idx
 ---
 
 # The Notebook
