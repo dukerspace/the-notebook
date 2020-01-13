@@ -1,3 +1,10 @@
+---
+id: npm
+title: NPM
+type: docs
+path: the-notebook/lang/npm
+---
+
 ### NPM
 
 #### publish package

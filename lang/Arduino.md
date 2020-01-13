@@ -1,3 +1,10 @@
+---
+id: arduino
+title: Arduino
+type: docs
+path: the-notebook/lang/arduino
+---
+
 ### Arduino
 
 #### Port

@@ -1,3 +1,9 @@
+---
+id: docker
+title: Docker
+type: docs
+path: the-notebook/ops/docker
+---
 
 ### Docker
 

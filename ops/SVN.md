@@ -1,3 +1,10 @@
+---
+id: svn
+title: SVN
+type: docs
+path: the-notebook/ops/svn
+---
+
 ## SVN
 
 ### update

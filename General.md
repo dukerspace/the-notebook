@@ -1,3 +1,10 @@
+---
+id: general
+title: General
+type: docs
+path: the-notebook/general
+---
+
 ### General
 
 #### Semantic versioning 2.0.0

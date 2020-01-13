@@ -1,3 +1,9 @@
+---
+id: scala
+title: Scala
+type: docs
+path: the-notebook/lang/scala
+---
 
 #### SBT Check Dependencies
 

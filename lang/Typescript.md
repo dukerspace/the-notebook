@@ -1,3 +1,10 @@
+---
+id: typescript
+title: TypeScript
+type: docs
+path: the-notebook/lang/typescript
+---
+
 ### Typescript
 
 #### Union Type

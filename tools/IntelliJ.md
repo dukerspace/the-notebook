@@ -1,3 +1,10 @@
+---
+id: intellije
+title: IntelliJ
+type: docs
+path: the-notebook/tools/intellij
+---
+
 #### Debug
 - 1. Create remote on IntelliJ
 - 2. activator -jvm-debug 9999

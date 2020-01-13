@@ -1,4 +1,10 @@
-
+---
+id: git-workflow
+title: Git Workflow
+type: docs
+path: the-notebook/theory/git-workflow
+tags: ['theory']
+---
 
 ## Git Workflow
 - master สำหรับ deploy production (มีแค่ tag version เช่น v.1.0.0)

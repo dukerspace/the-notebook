@@ -1,3 +1,10 @@
+---
+id: note
+title: Note
+type: docs
+path: the-notebook/note
+---
+
 ### Note
 
 #### wkhtmltopdf

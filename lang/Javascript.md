@@ -1,3 +1,10 @@
+---
+id: javascript
+title: Java Script
+type: docs
+path: the-notebook/database/javascript
+---
+
 ### JavaScript
 
 ####  Spread Operator
