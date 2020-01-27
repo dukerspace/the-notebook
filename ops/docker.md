@@ -10,7 +10,7 @@ path: the-notebook/ops/docker
 #### Build image
 docker build -t ${IMAGE}:${VERSION} ${LOCATION}
 ```
-docker build -t ${IMAGE}:${VERSION} .
+docker build -t hub.dezenter.org/dezenter/web:0.1.0 .
 ```
 
 #### tag image to private registry
