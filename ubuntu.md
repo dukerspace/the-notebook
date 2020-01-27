@@ -1,3 +1,10 @@
+---
+id: ubuntu
+title: Ubuntu
+type: docs
+path: the-notebook/ubuntu
+---
+
 ## Ubuntu
 - uptime : check time use on computer
 

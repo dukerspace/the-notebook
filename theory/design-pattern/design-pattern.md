@@ -1,4 +1,10 @@
-
+---
+id: design-pattern
+title: Design Pattern
+type: docs
+path: the-notebook/theory/design-pattern/design-pattern
+tags: ['theory']
+---
 
 #### Creational Patterns เป็นกลุ่มแพทเทิร์นที่ใช้แก้ปัญหาในการสร้างกลุ่มอ๊อปเจ็ก ซึ่งช่วยให้เราสามารถควบคุมลักษณะ จำนวนและวิธีการสร้าง
 - Abstract Factory
@@ -32,5 +38,5 @@
 #### links
 - [Designer pattern](https://designpatternsphp.readthedocs.io)
 
-credit 
+credit
 - [algorithmtut](https://www.algorithmtut.com/algorithmdesign-pattern-tutorials/)

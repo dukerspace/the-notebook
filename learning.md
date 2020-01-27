@@ -1,3 +1,10 @@
+---
+id: learn
+title: Learning
+type: docs
+path: the-notebook/learning
+---
+
 ### Scala
 - https://www.scala-exercises.org/
 

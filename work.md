@@ -1,3 +1,10 @@
+---
+id: work
+title: Work
+type: docs
+path: the-notebook/work
+---
+
 # Work
 
 ### test

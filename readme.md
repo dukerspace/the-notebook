@@ -1,34 +1,42 @@
+---
+id: readme
+title: Read Me
+path: /the-notebook/readme
+---
+
 # The Notebook
-![The note book](/files/the_notebook.jpg)
-- [IMDB](http://www.imdb.com/title/tt0332280/)
+## Book of my development
+
+---
+## Index
 
 #### Lang
-- [Arduino](/lang/Arudion.md)
-- [Go Lang](/lang/Go.md)
-- [Scala](/lang/Scala.md)
-- [Java](/lang/Java.md)
-- [Javacript](/lang/Javascript.md)
+- [Arduino](/lang/arduino.md)
+- [Go Lang](/lang/golang.md)
+- [Scala](/lang/scala.md)
+- [Java](/lang/java.md)
+- [Javacript](/lang/javascript.md)
 - [Shell](/lang/shell.md)
 
 #### Framework
-- [Play](/framework/Play.md)
-- [ReactJs](/framework/ReactJs.md)
+- [Play](/framework/play.md)
+- [ReactJs](/framework/reactjs.md)
 
 #### Databases
-- [MySql](/databases/Mysql.md)
-- [Postgres](/databases/Postgres.md)
+- [MySql](/databases/mysql.md)
+- [Postgres](/databases/postgres.md)
 
 #### Dev & Ops
-- [Docker](/ops/Docker.md)
-- [Kubernetes](/ops/Kubernetest.md)
-- [Git](/ops/Git.md)
-- [SVN](/ops/Kubernetes.md)
+- [Docker](/ops/docker.md)
+- [Kubernetes](/ops/kubernetest.md)
+- [Git](/ops/git.md)
+- [SVN](/ops/kubernetes.md)
 
 #### Tools
-- [IntelliJ](/tools/IntelliJ.md)
-- [Vim](/tools/Vim.md)
+- [IntelliJ](/tools/intellij.md)
+- [Vim](/tools/vim.md)
 
-### API
+#### API
 - [Rest](/api/rest.md)
 
 #### Etc
@@ -36,17 +44,13 @@
 - [Ubuntu](/ubuntu.md)
 - [Servives](/services.md)
 
----
-
-## Theory
-
-### Design Pattern
+#### Design Pattern
 - [Abstract facetory](/theory/design-pattern/abstract-factory.md)
 - [Design Pattern](/theory/design-pattern/design-pattern.md)
 - [Singleton](/theory/design-pattern/singleton.md)
 
-### Etc
-- [Blockchain](/theory/Blockchain.md)
-- [Testing](/theory/Testing.md)
-- [Domain Driven Design](/theory/DDD.md)
+#### Etc
+- [Blockchain](/theory/blockchain.md)
+- [Testing](/theory/testing.md)
+- [Domain Driven Design](/theory/ddd.md)
 - [Git Workflow](/theory/git-workflow.md)

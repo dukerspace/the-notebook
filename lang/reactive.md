@@ -1,3 +1,10 @@
+---
+id: reactive
+title: Reactive
+type: docs
+path: the-notebook/lang/reactive
+---
+
 ## Reactive Programing
 
-- (https://www.babelcoder.com/blog/posts/rxjs-observables)[Link]
+- [Link](https://www.babelcoder.com/blog/posts/rxjs-observables)

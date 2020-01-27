@@ -1,3 +1,10 @@
+---
+id: php
+title: PHP
+type: docs
+path: the-notebook/lang/php
+---
+
 ### PHP
 
 #### Magento 2

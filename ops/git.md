@@ -5,9 +5,6 @@ type: docs
 path: the-notebook/ops/git
 ---
 
-## Git
-[Try](https://try.github.io/)
-
 #### เริ่มต้น
 - git init
 - git remote add <name> <url>
@@ -43,6 +40,15 @@ git tag -l
 #### Tag push
 ```
 git push --tag
+```
+#### Tag delete
+- delete tag in host
+```
+git push --delete origin tagname
+```
+- delete tag in local
+```
+git tag --delete tagname
 ```
 
 #### Update remote url
@@ -154,3 +160,4 @@ git count-objects -vH
 #### Learn more
 - (https://devahoy.com/posts/git-cheat-sheet/)
 - (http://anuchit-git.blogspot.com/2013/07/git.html)
+- [Try](https://try.github.io/)

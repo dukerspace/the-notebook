@@ -1,3 +1,10 @@
+---
+id: golang
+title: Go Lang
+type: docs
+path: the-notebook/lang/golang
+---
+
 ### Go Lang
 
 #### Learning

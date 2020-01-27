@@ -1,3 +1,10 @@
+---
+id: kubernetes
+title: Kubernetes
+type: docs
+path: the-notebook/ops/kubernetes
+---
+
 ### Kubernetest
 [Learn online](https://www.katacoda.com/courses/kubernetes)
 
