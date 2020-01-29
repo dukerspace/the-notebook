@@ -29,3 +29,15 @@ sudo kill `sudo lsof -t -i:80`
 ```
 df -H
 ```
+
+#### add user
+- adduser <username>
+```
+adduser dukerspace
+```
+
+#### remove user
+- userdel <username>
+```
+userdel dukerspace
+```

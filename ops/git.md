@@ -83,6 +83,11 @@ git remote prune origin
 ```
 git clean -fd
 ```
+#### reset file
+git checkout -- <file_name>
+```
+git checkout -- git.md
+```
 
 #### Remeber login
 ```
