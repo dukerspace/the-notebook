@@ -36,6 +36,12 @@ df -H
 adduser dukerspace
 ```
 
+#### add root privileges
+- visudo
+```
+user ALL=(ALL:ALL)ALL
+```
+
 #### remove user
 - userdel <username>
 ```
