@@ -7,6 +7,12 @@ path: the-notebook/ops/svn
 
 ## SVN
 
+### clone
+- svn co
+```
+svn co https://www.test.local/svn/CNX/trunk/magento/current/
+```
+
 ### update
 - svn update
 
