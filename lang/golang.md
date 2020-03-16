@@ -58,3 +58,13 @@ func main() {
 #### Private and Public Visibility
 - private Lowwer case -> func a()
 - public Upper case  => func A()
+
+
+#### array, slice
+- array -> fix list
+- slice -> not fix
+
+#### Receiver method
+
+[Link](
+https://medium.com/@goangle/%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B6%E0%B8%81-golang-01-receiver-%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%B1%E0%B8%9A-function-%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B9%84%E0%B8%A3-13725b1d0386)

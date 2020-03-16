@@ -2,7 +2,7 @@
 id: shell
 title: Shell Script
 type: docs
-path: the-notebook/lang/schell
+path: the-notebook/lang/shell
 ---
 
 ### Shell Script
