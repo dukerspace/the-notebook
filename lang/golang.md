@@ -26,8 +26,8 @@ path: the-notebook/lang/golang
 
 #### Pointer
 
-& ส่ง
-* รับ
+- ส่ง &
+- รับ *
 
 ```
 package main
