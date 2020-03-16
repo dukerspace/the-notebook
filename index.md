@@ -23,18 +23,17 @@ path: /the-notebook/idx
 - [ReactJs](/the-notebook/framework/reactjs)
 
 #### Databases
-- [MySql](/the-notebook/databases/mysql)
-- [Postgres](/the-notebook/databases/postgres)
+- [MySql](/the-notebook/database/mysql)
+- [Postgres](/the-notebook/database/postgres)
 
 #### Dev & Ops
 - [Docker](/the-notebook/ops/docker)
-- [Kubernetes](/the-notebook/ops/kubernetest)
+- [Kubernetes](/the-notebook/ops/kubernetes)
 - [Git](/the-notebook/ops/git)
-- [SVN](/the-notebook/ops/kubernetes)
+- [SVN](/the-notebook/ops/svn)
 
 #### Tools
 - [IntelliJ](/the-notebook/tools/intellij)
-- [Vim](/the-notebook/tools/vim)
 
 #### API
 - [Rest](/the-notebook/api/rest)

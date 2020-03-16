@@ -2,7 +2,7 @@
 id: restful
 title: RESTful
 type: docs
-path: the-notebook/api/restful
+path: the-notebook/api/rest
 ---
 
 ### RESTful

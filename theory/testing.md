@@ -2,7 +2,7 @@
 id: testing
 title: Testing
 type: docs
-path: the-notebook/theory/microservices/tools
+path: the-notebook/theory/testing
 tags: ['theory']
 ---
 
