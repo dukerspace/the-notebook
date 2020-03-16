@@ -7,6 +7,12 @@ path: the-notebook/database/javascript
 
 ### JavaScript
 
+#### if
+```
+const a  = 1
+const b = a ?? 0
+```
+
 ####  Spread Operator
 ```
 let a = { name: 'a', age: 18 }

@@ -29,3 +29,21 @@ sudo kill `sudo lsof -t -i:80`
 ```
 df -H
 ```
+
+#### add user
+- adduser <username>
+```
+adduser dukerspace
+```
+
+#### add root privileges
+- visudo
+```
+user ALL=(ALL:ALL)ALL
+```
+
+#### remove user
+- userdel <username>
+```
+userdel dukerspace
+```

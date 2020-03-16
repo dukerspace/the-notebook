@@ -83,6 +83,11 @@ git remote prune origin
 ```
 git clean -fd
 ```
+#### reset file
+git checkout -- <file_name>
+```
+git checkout -- git.md
+```
 
 #### Remeber login
 ```
@@ -95,6 +100,7 @@ git mv -f {old_file} {new_file}
 ```
 
 #### multiple account
+- [link](https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/)
 
 #### Sub Module
 - git submodule init
