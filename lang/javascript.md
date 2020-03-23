@@ -2,7 +2,7 @@
 id: javascript
 title: Java Script
 type: docs
-path: the-notebook/database/javascript
+path: the-notebook/lang/javascript
 ---
 
 ### JavaScript
