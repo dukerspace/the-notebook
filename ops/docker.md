@@ -88,6 +88,9 @@ docker system df
 
 #### run
 - docker-compose run -d --build
+```
+docker-compose -f docker-compose-production.yml up -d
+```
 
 #### build
 - docker-compose build
