@@ -55,5 +55,6 @@ sudo timedatectl set-timezone Asia/Bangkok
 
 #### check timezone
 ```
+timedatectl
 timedatectl status | grep "Time zone"
 ```
