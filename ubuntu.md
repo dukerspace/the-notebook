@@ -48,7 +48,12 @@ user ALL=(ALL:ALL)ALL
 userdel dukerspace
 ```
 
-#### set time
+#### set timezone
 ```
 sudo timedatectl set-timezone Asia/Bangkok
+```
+
+#### check timezone
+```
+timedatectl status | grep "Time zone"
 ```
