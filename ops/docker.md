@@ -20,8 +20,8 @@ docker image tag dezenter/air:0.1.0 hub.dezenter.org/dezenter/air:0.1.0
 ```
 
 ####
-- docker (hub) image push <username>/<project_name>:<tag>
-- docker image push <host>/<host_image>/<project_name>:<tag>
+- docker (hub) image push <username>/<project_name>:<tag_version>
+- docker (private) image push <url>/<namespace>/<project_name>:<tag_version>
 ```
 docker image push hub.dezenter.org/dezenter/air:0.1.0
 ```
