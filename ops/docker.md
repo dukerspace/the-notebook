@@ -20,10 +20,12 @@ docker image tag dezenter/air:0.1.0 hub.dezenter.org/dezenter/air:0.1.0
 ```
 
 ####
+- docker (hub) image push <username>/<project_name>:<tag>
 - docker image push <host>/<host_image>/<project_name>:<tag>
 ```
 docker image push hub.dezenter.org/dezenter/air:0.1.0
 ```
+  
 
 #### use command
 - docker exec -it <container_name> <command>
