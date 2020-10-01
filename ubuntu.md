@@ -47,3 +47,14 @@ user ALL=(ALL:ALL)ALL
 ```
 userdel dukerspace
 ```
+
+#### set timezone
+```
+sudo timedatectl set-timezone Asia/Bangkok
+```
+
+#### check timezone
+```
+timedatectl
+timedatectl status | grep "Time zone"
+```

@@ -15,3 +15,15 @@ path: the-notebook/lang/shell
 ```
 . .env
 ```
+
+
+### ssh login with private key
+ssh -i ./path/key  root@localhost
+```
+ssh -i ./private.key root@localhosts
+```
+
+- if unprotectd privatekey
+```
+chmod 400 key.pem
+```

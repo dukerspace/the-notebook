@@ -21,6 +21,13 @@ git remote add  orgin https://github.com/laravel/laravel
 - เริ่มต้นด้วยการ ไปที่ branch หลัก (master)
 - จากนั้นก็สั่ง git merge branch_name จาก branch ที่ต้องการ มาที่ master
 
+#### Pull
+git pull master to develop branch
+git pull <remote> <master-branch>  <develop-branch>
+```
+git pull origin master develop
+```
+
 #### Rebase
 - git checkout <branch>
 - git rebase master
