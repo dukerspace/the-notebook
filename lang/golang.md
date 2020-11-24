@@ -74,7 +74,7 @@ func main() {
 #### test all project
 
 ```
-go test ./..
+go test ./...
 ```
 
 #### map
