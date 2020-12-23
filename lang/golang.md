@@ -82,3 +82,11 @@ go test ./...
 - ไม่มีการเรียงลำดับ
 
 [Link](https://medium.com/@goangle/%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B6%E0%B8%81-golang-01-receiver-%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%B1%E0%B8%9A-function-%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B9%84%E0%B8%A3-13725b1d0386)
+
+#### gorm
+
+pointer จะคืนค่า null ถ้าไม่ใช่จะเป็น ""
+
+```
+*Address Address
+```
