@@ -100,3 +100,16 @@ Save the file.
 ```
 sudo passwd $USER
 ```
+
+#### tree
+
+tree <folder>
+
+```
+tree media
+```
+
+### app
+
+- tmux
+- htop
