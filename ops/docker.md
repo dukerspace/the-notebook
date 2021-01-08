@@ -32,8 +32,7 @@ docker image push hub.dezenter.org/dezenter/air:0.1.0
 #### run image
 
 ```
-- docker run --publish 8000:8080 --detach --name bb -t bulletinboard:1.0
-
+docker run --publish 8080:8080 --detach --name bb -t bulletinboard:1.0
 ```
 
 #### use command
