@@ -90,3 +90,9 @@ pointer จะคืนค่า null ถ้าไม่ใช่จะเป็
 ```
 *Address Address
 ```
+
+#### update dep
+
+```
+go get -u
+```

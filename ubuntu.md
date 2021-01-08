@@ -113,3 +113,17 @@ tree media
 
 - tmux
 - htop
+
+### login as root
+
+```
+sudo -i
+```
+
+### change user
+
+sudo -u <user> -s
+
+```
+sudo -u ubuntu -s
+```
