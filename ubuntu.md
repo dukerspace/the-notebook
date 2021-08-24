@@ -30,10 +30,10 @@ sudo lsof -t -i:80
 sudo kill `sudo lsof -t -i:80`
 ```
 
-#### check disk
+#### check disk free
 
 ```
-df -H
+df -h
 ```
 
 #### add user
@@ -134,4 +134,10 @@ sudo -u ubuntu -s
 
 https://www.plesk.com/blog/various/find-files-in-linux-via-command-line/
 
+```
+
+### find large file
+
+```
+sudo du -a / 2>/dev/root | sort -n -r | head -n 20
 ```
