@@ -91,10 +91,20 @@ docker volume rm `docker volume ls -q -f dangling=true`
 docker volume prune
 ```
 
-#### image
+#### image prune
+
+-remove none used
 
 ```
-docker image prune => remove none used
+docker image prune
+```
+
+#### remove all images
+
+```
+docker images -q | xargs docker rmi -f
+
+docker image ls -q | xargs -I {} docker image rm -f {}
 ```
 
 #### container

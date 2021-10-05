@@ -127,3 +127,11 @@ sudo -u <user> -s
 ```
 sudo -u ubuntu -s
 ```
+
+### find file
+
+```
+
+https://www.plesk.com/blog/various/find-files-in-linux-via-command-line/
+
+```
