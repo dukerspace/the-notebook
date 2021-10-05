@@ -121,6 +121,12 @@ docker system df
 
 ### Docker Compose
 
+- This removes all the containers
+
+```
+docker-compose down -v --rmi all
+```
+
 #### Build image
 
 ##### version 3
@@ -153,3 +159,9 @@ docker-compose -f docker-compose-production.yml up -d
 - [training](https://training.play-with-docker.com)
 
 --remove-orphans
+
+### permission docker
+
+```
+sudo chmod 666 /var/run/docker.sock
+```
