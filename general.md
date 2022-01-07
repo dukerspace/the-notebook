@@ -15,3 +15,10 @@ Given a version number MAJOR.MINOR.PATCH, increment the:
 - PATCH version when you make backwards-compatible bug fixes.
 
 Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
+
+#### Generic type
+E - Element (used extensively by the Java Collections Framework)
+K - Key
+N - Number
+T - Type
+V - Value

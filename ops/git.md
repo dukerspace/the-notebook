@@ -34,6 +34,13 @@ git pull <remote> <master-branch> <develop-branch>
 git pull origin master develop
 ```
 
+#### Rename branch
+git branch -m <new_name>
+```
+git branch -m main
+```
+
+
 #### Rebase
 
 - git rebase develop
