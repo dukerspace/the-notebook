@@ -35,11 +35,10 @@ git pull origin master develop
 ```
 
 #### Rename branch
-git branch -m <new_name>
+git branch -m <new-branch-name>
 ```
 git branch -m main
 ```
-
 
 #### Rebase
 
