@@ -39,7 +39,7 @@ git branch -m <new-branch-name>
 ```
 git branch -m main
 ```
-  
+
 #### Rebase
 
 - git rebase develop
