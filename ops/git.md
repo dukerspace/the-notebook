@@ -20,6 +20,32 @@ git remote add  orgin https://github.com/laravel/laravel
 - git fetch origin
 - git pull origin master
 
+#### Message
+
+- test
+    สร้างหรือเปลี่ยนแปลง Test Code
+- feat
+ เพิ่ม Feature ใหม่ สำหรับ Project
+- refactor
+    ทำ Code Refactoring โดยไม่กระทบกับ Logic หรือ Rules
+- style
+    เมื่อมีการเปลี่ยน Code Style หรือมีการ Formatting Code
+- fix
+    แก้ Error หรือ Bugs ในระบบ
+- docs
+    เปลี่ยนแปลง Document ของ Project
+- chore
+    มีการเปลี่ยนแปลงที่ไม่เกี่ยวกับ Code หรือ Test เป็นการเปลี่ยนแปลงด้าน Development Dependency หรือ Tools เช่น eslint, prettier, .gitignore
+- build
+    มีการเปลี่ยนแปลงที่ส่งผลต่อ Build Process หรือ External Dependency
+    เปลี่ยนแปลง Dependency ของ Project
+- perf
+    การเปลี่ยนแปลงที่เกี่ยวข้องกับการเพิ่ม Performance ของระบบ
+- ci
+    เปลี่ยนแปลง CI/CD Configuration File เช่น Circle ,Travis, Jenkins
+- revert
+    มีการย้อยกลับไปที่ Commit ก่อนหน้านี้
+
 #### Merge
 
 - เริ่มต้นด้วยการ ไปที่ branch หลัก (master)
