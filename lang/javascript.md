@@ -66,3 +66,9 @@ export NODE_OPTIONS=--max-old-space-size=8192
 ```
 
 - https://support.snyk.io/hc/en-us/articles/360002046418-JavaScript-heap-out-of-memory
+
+
+###  Promise.all กับ for แล้ว await
+- ถ้าใช้ Promise.all จะเรียกแบบ async ทั้งหมดแล้วค่อยรอ
+- ถ้าใช้ for แล้ว await จะรอเสร็จทีละ 1 แล้วค่อยเรียกแบบ async
+- https://weerasak.dev/posts/2023/03/07/javascript-promise-all-vs-for-await/
