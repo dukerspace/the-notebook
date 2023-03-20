@@ -69,7 +69,9 @@ git branch -m main
 #### Rebase
 
 - git rebase develop
-- git merge bugFIx
+- git merge bugFIx  
+- git pull --rebase
+- git rebase --continue
 
 #### Tag checkout
 
