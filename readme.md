@@ -13,6 +13,7 @@ path: /the-notebook/readme
 #### Lang
 - [Arduino](/lang/arduino.md)
 - [Go Lang](/lang/golang.md)
+- [NodeJS](/lang/node.md)
 - [Scala](/lang/scala.md)
 - [Java](/lang/java.md)
 - [Javacript](/lang/javascript.md)
