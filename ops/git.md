@@ -104,6 +104,11 @@ git tag -l
 git push --tag
 ```
 
+#### Tag pull
+```
+git pull --tags
+```
+
 #### Tag delete
 
 - delete tag in host
