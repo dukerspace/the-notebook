@@ -6,3 +6,4 @@
 - [Python](https://github.com/TheAlgorithms/Python)
 - [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook)
 - [Awesome Interviews](https://github.com/DopplerHQ/awesome-interview-questions)
+- [Clean Architecture Solution Template](https://github.com/kavaan/clean-architecture-solution-template)
