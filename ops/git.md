@@ -13,7 +13,7 @@ path: the-notebook/ops/git
 ```
 git remote add  orgin https://github.com/laravel/laravel
 ```
-
+- git add .
 - git add --all
 - git commit -m "Init"
 - git push origin
@@ -155,6 +155,8 @@ git remote prune origin
 
 ```
 git clean -fd
+git clean -f
+git clean -n => -n ก็คือ dry-run ยังไม่ได้ run กันจริง ๆ แ
 ```
 
 #### reset file
