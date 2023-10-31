@@ -13,13 +13,11 @@ path: /the-notebook/idx
 #### Lang
 - [Arduino](/the-notebook/lang/arduino)
 - [Go Lang](/the-notebook/lang/golang)
-- [Scala](/the-notebook/lang/scala)
-- [Java](/the-notebook/lang/java)
 - [Javacript](/the-notebook/lang/javascript)
 - [Shell](/the-notebook/lang/shell)
+- [Php](/the-notebook/lang/php)
 
 #### Framework
-- [Play](/the-notebook/framework/play)
 - [ReactJs](/the-notebook/framework/reactjs)
 
 #### Databases
@@ -32,16 +30,13 @@ path: /the-notebook/idx
 - [Git](/the-notebook/ops/git)
 - [SVN](/the-notebook/ops/svn)
 
-#### Tools
-- [IntelliJ](/the-notebook/tools/intellij)
 
 #### API
 - [Rest](/the-notebook/api/rest)
 
 #### Etc
-- [Learning](/the-notebook/learning)
 - [Ubuntu](/the-notebook/ubuntu)
-- [Servives](/the-notebook/services)
+- [Servives](/the-notebook/tools/services)
 
 #### Design Pattern
 - [Abstract facetory](/the-notebook/theory/design-pattern/abstract-factory)

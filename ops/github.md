@@ -1,3 +1,10 @@
+---
+id: github
+title: Git Hub
+type: docs
+path: the-notebook/ops/github
+---
+
 ## Github Runner
 
 - สร้าง account กลาง (github)
