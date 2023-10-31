@@ -16,7 +16,8 @@ git remote add  orgin https://github.com/laravel/laravel
 - git add .
 - git add --all
 - git commit -m "Init"
-- git push origin
+- git push
+- git commit -am "msg" (-a to automatically stage all changes)
 - git fetch origin
 - git pull origin master
 
