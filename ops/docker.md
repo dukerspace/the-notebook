@@ -124,7 +124,7 @@ docker system df
 - This removes all the containers
 
 ```
-docker-compose down -v --rmi all
+docker compose down -v --rmi all
 ```
 
 #### Build image
@@ -136,19 +136,19 @@ docker-compose down -v --rmi all
 
 #### run
 
-- docker-compose run -d --build
+- docker compose run -d --build
 
 ```
-docker-compose -f docker-compose-production.yml up -d
+docker compose -f docker compose-production.yml up -d
 ```
 
 #### build
 
-- docker-compose build
+- docker compose build
 
 #### exec
 
-- docker-compose exec -it <name> bash
+- docker compose exec -it <name> bash
 
 #### .env
 
