@@ -108,9 +108,9 @@ docker image ls -q | xargs -I {} docker image rm -f {}
 ```
 
 #### container
-
+- remove none used container
 ```
-docker container prune => remove none used container
+docker container prune
 ```
 
 #### check disk
