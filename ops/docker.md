@@ -119,6 +119,11 @@ docker container prune => remove none used container
 docker system df
 ```
 
+#### remove build cache
+```
+docker builder prune
+```
+
 ### Docker Compose
 
 - This removes all the containers
