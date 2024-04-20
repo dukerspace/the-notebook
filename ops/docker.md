@@ -122,6 +122,7 @@ docker system df
 #### remove build cache
 ```
 docker builder prune
+docker builder prune -a
 ```
 
 ### Docker Compose
