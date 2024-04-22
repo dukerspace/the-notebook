@@ -10,6 +10,11 @@ path: /the-notebook/readme
 ---
 ## Index
 
+## TOP use
+- [Docker](/ops/docker.md)
+- [Git](/ops/git.md)
+
+
 #### Lang
 - [Arduino](/lang/arduino.md)
 - [Go Lang](/lang/golang.md)
@@ -32,10 +37,6 @@ path: /the-notebook/readme
 - [Kubernetes](/ops/kubernetest.md)
 - [Git](/ops/git.md)
 - [SVN](/ops/kubernetes.md)
-
-#### Tools
-- [IntelliJ](/tools/intellij.md)
-- [Vim](/tools/vim.md)
 
 #### API
 - [Rest](/api/rest.md)
