@@ -171,3 +171,9 @@ docker compose -f docker compose-production.yml up -d
 ```
 sudo chmod 666 /var/run/docker.sock
 ```
+
+### docker postgres dump db
+- docker-compose exec {service_name} pg_dumpall -U {postgres_user} > dump.sql
+```
+docker-compose exec postgres pg_dumpall -U root > dump.sql
+```
