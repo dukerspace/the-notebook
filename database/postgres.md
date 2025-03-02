@@ -30,3 +30,7 @@ psql -U postgres project < backup.bak
 ```
 pg_restore -U postgres -d project -1 backup.dump
 ```
+
+```
+cat dump.sql | docker exec
+```

@@ -60,6 +60,13 @@ git pull <remote> <master-branch> <develop-branch>
 ```
 git pull origin master develop
 ```
+fix error pathspec
+
+```
+git remote update
+git fetch 
+git checkout --track origin/<BRANCH-NAME>
+```
 
 #### Rename branch
 git branch -m <new-branch-name>
