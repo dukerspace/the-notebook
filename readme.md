@@ -18,14 +18,11 @@ path: /the-notebook/readme
 #### Lang
 - [Arduino](/lang/arduino.md)
 - [Go Lang](/lang/golang.md)
-- [NodeJS](/lang/node.md)
-- [Scala](/lang/scala.md)
-- [Java](/lang/java.md)
 - [Javacript](/lang/javascript.md)
 - [Shell](/lang/shell.md)
+- [PHP](/lang/php.md)
 
 #### Framework
-- [Play](/framework/play.md)
 - [ReactJs](/framework/reactjs.md)
 
 #### Databases
@@ -42,7 +39,6 @@ path: /the-notebook/readme
 - [Rest](/api/rest.md)
 
 #### Etc
-- [Learning](/learning.md)
 - [Ubuntu](/ubuntu.md)
 - [Servives](/services.md)
 
