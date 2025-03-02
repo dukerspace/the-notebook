@@ -79,9 +79,17 @@ go test ./...
 
 #### map
 
-- ไม่มีการเรียงลำดับ
+- ไม่มีการเรียงลำดับ  
 
 [Link](https://medium.com/@goangle/%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B6%E0%B8%81-golang-01-receiver-%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%B1%E0%B8%9A-function-%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B9%84%E0%B8%A3-13725b1d0386)
+
+- fix map error
+```
+sumList := make(map[int]map[int]dataRowSummary)
+if _, ok := sumList[row.ID]; !ok {
+	sumList[row.ID] = make(map[int]dataRowSummary)
+}
+```
 
 #### gorm
 

@@ -108,9 +108,9 @@ docker image ls -q | xargs -I {} docker image rm -f {}
 ```
 
 #### container
-
+- remove none used container
 ```
-docker container prune => remove none used container
+docker container prune
 ```
 
 #### check disk
@@ -119,12 +119,18 @@ docker container prune => remove none used container
 docker system df
 ```
 
+#### remove build cache
+```
+docker builder prune
+docker builder prune -a
+```
+
 ### Docker Compose
 
 - This removes all the containers
 
 ```
-docker-compose down -v --rmi all
+docker compose down -v --rmi all
 ```
 
 #### Build image
@@ -136,19 +142,19 @@ docker-compose down -v --rmi all
 
 #### run
 
-- docker-compose run -d --build
+- docker compose run -d --build
 
 ```
-docker-compose -f docker-compose-production.yml up -d
+docker compose -f docker compose-production.yml up -d
 ```
 
 #### build
 
-- docker-compose build
+- docker compose build
 
 #### exec
 
-- docker-compose exec -it <name> bash
+- docker compose exec -it <name> bash
 
 #### .env
 
@@ -164,4 +170,10 @@ docker-compose -f docker-compose-production.yml up -d
 
 ```
 sudo chmod 666 /var/run/docker.sock
+```
+
+### docker postgres dump db
+- docker-compose exec {service_name} pg_dumpall -U {postgres_user} > dump.sql
+```
+docker-compose exec postgres pg_dumpall -U root > dump.sql
 ```

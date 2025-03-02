@@ -30,13 +30,13 @@ path: /the-notebook/idx
 - [Git](/the-notebook/ops/git)
 - [SVN](/the-notebook/ops/svn)
 
-
 #### API
 - [Rest](/the-notebook/api/rest)
 
 #### Etc
 - [Ubuntu](/the-notebook/ubuntu)
 - [Servives](/the-notebook/tools/services)
+
 
 #### Design Pattern
 - [Abstract facetory](/the-notebook/theory/design-pattern/abstract-factory)
