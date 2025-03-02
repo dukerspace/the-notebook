@@ -1,6 +1,6 @@
 # Login by ssh
 ```
-ssh -i ~/.ssh/zlalab_dev_id_rsa root@ip -o ServerAliveInterval=3600 
+ssh -i ~/.ssh/zlalab_dev_id_rsa root@ip -o ServerAliveInterval=60
 ```
 
 
