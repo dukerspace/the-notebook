@@ -84,6 +84,7 @@ git branch -m main
 #### Tag checkout
 
 ```
+git fetch --all --tags
 git checkout tags/<tag_name>
 ```
 
