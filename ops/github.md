@@ -17,3 +17,34 @@ path: the-notebook/ops/github
 ```
 /actions-runner/_work
 ```
+
+If you want the runner to start automatically when the server boots, use the built-in service script:
+```
+sudo ./svc.sh install
+sudo ./svc.sh start
+```
+
+Check status:
+```
+sudo ./svc.sh status
+```
+
+Stop the service:
+```
+sudo ./svc.sh stop
+```
+
+✅ This is the only place where sudo is allowed — because you’re installing a system service.
+
+🧹 Option 3: Uninstall or Reconfigure
+
+To remove the service:
+```
+sudo ./svc.sh stop
+sudo ./svc.sh uninstall
+```
+
+To reconfigure the runner:
+```
+./config.sh remove
+```
