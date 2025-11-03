@@ -150,3 +150,15 @@ df -h
 ```
 free -h
 ```
+
+### add user
+```
+sudo adduser runner
+sudo usermod -aG sudo runner
+su - runner
+```
+
+### remove user
+```
+sudo deluser username
+```
