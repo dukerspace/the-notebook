@@ -20,6 +20,10 @@ path: the-notebook/ops/github
 
 If you want the runner to start automatically when the server boots, use the built-in service script:
 ```
+sudo adduser github-runner
+sudo usermod -aG docker github-runner  # if you want Docker builds
+su - github-runner
+
 sudo ./svc.sh install
 sudo ./svc.sh start
 ```
