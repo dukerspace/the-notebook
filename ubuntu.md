@@ -141,3 +141,24 @@ https://www.plesk.com/blog/various/find-files-in-linux-via-command-line/
 ```
 sudo du -a / 2>/dev/root | sort -n -r | head -n 20
 ```
+### harddisk used
+```
+df -h
+```
+
+### ram used
+```
+free -h
+```
+
+### add user
+```
+sudo adduser runner
+sudo usermod -aG sudo runner
+su - runner
+```
+
+### remove user
+```
+sudo deluser username
+```
