@@ -16,3 +16,10 @@ chown $USER ~/.ssh/config
 
 chmod 400 ~/.ssh/id_rsa
 ```
+
+## scp
+- -vvv is debug mode
+```
+scp -i ~/.ssh/id_rsa file.tgz a root@ip:/var/www
+scp -vvv -i ~/.ssh/id_rsa file.tgz a root@ip:/var/www
+```
