@@ -52,10 +52,3 @@ To reconfigure the runner:
 ```
 ./config.sh remove
 ```
-
-Fix (recommended): Add github-runner to the docker group
-```
-sudo groupadd docker 2>/dev/null || true
-sudo usermod -aG docker github-runner
-sudo su - github-runner
-```
