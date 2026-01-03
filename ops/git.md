@@ -134,7 +134,17 @@ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git (https://he
 #### Delete local branch
 
 - git branch -D branch_name
-- git branch | grep 'bug-\.' | xargs git branch -d (ลบชื่อเหมือน)
+```
+git branch | grep 'bug-\.' | xargs git branch -d (ลบชื่อเหมือน)
+```
+To remove all local branches except main , use the following Git command:
+```
+git branch | grep -v "main" | xargs git branch -D
+```
+If you want to delete all local branches (including main or master):
+```
+git branch | xargs git branch -D
+```
 
 #### Delete remote branch
 

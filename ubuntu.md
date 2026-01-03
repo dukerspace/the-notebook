@@ -162,3 +162,18 @@ su - runner
 ```
 sudo deluser username
 ```
+
+### add volume
+- add volume and move docker data
+  
+sudo systemctl enable docker
+sudo systemctl enable docker.socket
+
+sudo systemctl start docker
+sudo systemctl start docker.socket
+
+### scan disk
+```
+sudo apt install ncdu
+sudo ncdu /
+```
