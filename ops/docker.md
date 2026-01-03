@@ -177,3 +177,17 @@ sudo chmod 666 /var/run/docker.sock
 ```
 docker-compose exec postgres pg_dumpall -U root > dump.sql
 ```
+
+### docker check disk
+```
+du -h --max-depth=1 /var/lib/docker/overlay2
+docker system df
+```
+
+### Clean
+```
+docker container prune
+docker image prune -a
+docker volume prune
+docker system prune -a --volumes
+```
